@@ -71,13 +71,12 @@ def scrape(s_business, s_location, s_num_page):
 			types = '|'.join(sel.css('.css-166la90::text').getall()[:3])
 			reviews_number = sel.css('.arrange-unit-fill__373c0__3cIO5.nowrap__373c0__AzEKB .css-bq71j2::text').get()
 			rating = sel.css('.overflow--hidden__373c0__1TJqF::attr(aria-label)').get()
-			main_menu = '|'.join(sel.css('.css-1p0j9vc::text').getall())
-			elements.append([name, website, phone, address, work_hours, types, reviews_number, rating, main_menu, link])
+			elements.append([name, website, phone, address, work_hours, types, reviews_number, rating, link])
 		print(f'finished page {i + 1}')
 		i += 1
 	 
 
-	data = pd.DataFrame(elements, columns=['name', 'website', 'phone', 'address', 'work_hours', 'types', 'reviews_number', 'rating', 'main_menu', 'link'])
+	data = pd.DataFrame(elements, columns=['name', 'website', 'phone', 'address', 'work_hours', 'types', 'reviews_number', 'rating', 'link'])
 	save_path = os.path.join(os.getcwd(), 'data.csv')
 	data.to_csv(save_path)
 
