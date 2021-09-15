@@ -1,9 +1,10 @@
 # Yelp-scraper-webapp
-Yelp scraper is a tool to collect business and consumers reviews data for yelp website
+
 ![Capture d’écran 2021-09-15 à 17 02 09](https://user-images.githubusercontent.com/83681204/133468776-bae63ce1-7e78-4e35-a14d-f5f329d8098b.jpg)
 
 
-
+<hr>
+<br>
 Yelp scraper is a simple web application that can run on your computer, it's used to collect business and consumers reviews data for yelp website, it's built using SELENIUM and Flask and provide the following informations in csv file :
 
 <br>
