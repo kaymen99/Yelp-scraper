@@ -12,6 +12,7 @@ Yelp scraper is a simple web application that can run on your computer, it's use
   <li>business name</li>
   <li>business website</li>
   <li>business phone</li>
+  <li>business features</li>
   <li>business work_hours</li>
   <li>number of consumers reviews</li>
   <li>business rating</li>
@@ -31,7 +32,7 @@ Excute the command in the terminal/cmd :
 <br>
 You will get a simple page with 3 inputs:
 <ul>
-  <li>business types : like Restaurents, accountants, coffee...) </li>
+  <li>business type : like Restaurents, accountants, coffee...) </li>
   <li>business location : the area to search in </li>
   <li>number of pages : the number of pages to be collected from yelp website</li>
 </ul>
