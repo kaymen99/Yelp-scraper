@@ -36,6 +36,10 @@ You will get a simple page with 3 inputs:
   <li>number of pages : the number of pages to be collected from yelp website</li>
 </ul>
 
+<br>
+
+After you submit the data will be saved in csv format in the yelp directory
+
 
 
 
